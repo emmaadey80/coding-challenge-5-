@@ -84,3 +84,13 @@ const customers = ["Alice", "Bob", "Charlie", "David"]; // Declaring array "cust
 const result = customers.find(customer => customer === "Charlie"); // Using .find() to locate customer charlie
 
 console.log("Results:", result); //Logging results 
+
+// Task 8- Function Declaration
+console.log("\nTask 8- Function Declaration");
+
+function calculateTax(amount, taxRate) { // Function calculateTax
+    return amount * taxRate;
+}
+let tax = calculateTax(200, 0.15);  // Amount= 200, taxRate= 0.15
+
+console.log(`Calculated tax: $${tax}`); //Logging the calculated tax results
