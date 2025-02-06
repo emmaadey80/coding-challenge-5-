@@ -34,3 +34,17 @@ const order = { // Decalring object "order" with properties
   // Call the displayOrder method
   order.displayOrder();
 
+//Task 3- Array Manipulation (push, pop, shift, unshift)
+console.log("\nTask 3- Array Manipulation");
+
+let cartItems = ["Eggs", "Milk", "Bread"]; // Declaring array "cartItems" with products
+
+cartItems.push("Coffee"); // Adding coffee to array
+
+cartItems.pop(); // Removing last product in array (Coffee)
+
+cartItems.unshift("Apples"); // Adding Apple to beginning of array
+
+cartItems.shift(); // Removing first product in array (Apple)
+
+console.log(cartItems); // Logging final array (Eggs, Milk, Bread)
