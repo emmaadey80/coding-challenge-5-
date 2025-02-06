@@ -48,3 +48,12 @@ cartItems.unshift("Apples"); // Adding Apple to beginning of array
 cartItems.shift(); // Removing first product in array (Apple)
 
 console.log(cartItems); // Logging final array (Eggs, Milk, Bread)
+
+// Task 4- Map Method
+console.log("\nTask 4- Map Method");
+
+const prices = [100, 200, 300]; // Declaring array "prices"
+
+const discountedPrices = prices.map(price => price * 0.9); // Using .map to apply 10% discount
+
+console.log(discountedPrices); // Logging DiscountedPrices
