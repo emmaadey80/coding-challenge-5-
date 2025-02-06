@@ -66,3 +66,13 @@ const inventory = [5, 0, 12, 8, 0]; // Declaring array "inventory"
 const inStock = inventory.filter( quantity => quantity > 0); // Using .filter() to remove products with zero stock
 
 console.log(inStock); // Logging filtered array
+
+// Task 6- Reduce Method
+console.log("\nTask 6- Reduce Method");
+
+const sales = [500, 300, 200, 400]; // Declaring array "sales"
+
+const totalRevenue = sales.reduce((total, currentSale) => total + currentSale, 0); // using .reduce() to calculate total revenue
+
+console.log("Total Revenue: $", totalRevenue); // Logging total revenue 
+
